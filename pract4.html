@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: antiquewhite;
+            padding: 5px;
+            display: block;
+
+        }
+    </style>
+</head>
+<body>
+   
+    <div style="text-align: center;">
+        <h1>WITCHAR 2024</h1>
+    </div>
+   <br><br>
+    <div>
+    <form action="User.PHP">
+        <filedset><legend></legend>
+            <label for="fname">Full Name:</label><input type="text" name="fname" id="fname">
+            <br><br>
+            <label for="uemail">Email:</label><input type="email" name="uemail" id="uemail">
+            <br><br>
+            <label for="phone">Phone No:</label><input type="tel" name="phone" id="phone">
+            <br><br>
+            <label for="clg">College Name:</label><input type="text" name="clg" id="clg">
+            <br><br>
+            Department <br><br><input type="radio"name="dept" id="cs"><label for="cs">Computer Science and Engineering</label><br>
+            <input type="radio"name="dept" id="it"><label for="cit">Information Technology</label><br>
+            <input type="radio"name="dept" id="entc"><label for="entc">Electronics and Telecommunication Engineering</label><br>
+            <input type="radio"name="dept" id="civil"><label for="civil">Civil Engineering</label><br>
+            <input type="radio"name="dept" id="mech"><label for="cs">Mechanical Engineering</label><br>
+            <input type="radio"name="dept" id="OTHER"><label for="OTHER">Other</label>
+            <br><br>
+
+            Year <br><br><input type="radio"name="yr" id="fy"><label for="fy">First Year</label><br>
+            <input type="radio"name="yr" id="sy"><label for="sy">Second Year</label><br>
+            <input type="radio"name="yr" id="ty"><label for="ty">Third Year</label><br>
+            <input type="radio"name="yr" id="fiy"><label for="fiy">Final Year</label><br>
+            <br><br>
+            <label for="event">Select Event : </label><select name="event" id="event">
+                <option value="event1">MADBout</option>
+                <option value="event2">Cool code</option>
+                <option value="event3">WITheater</option>
+                <option value="event4">Apti Battle</option>
+                <option value="event5">Dream CADD</option>
+                <option value="event6">Poster Making Competition</option>
+            </select>
+            <br><br>
+            
+            <input type="reset" name="clear" id="clear">
+            <input type="submit" name="sub" id="sub">
+
+        </filedset>
+   
+    </form>
+
+</body>
+</html>
